@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42790" started-at="2017-03-17T16:22:10Z" finished-at="2017-03-17T16:22:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="42790" started-at="2017-03-17T16:22:10Z" finished-at="2017-03-17T16:22:52Z">
+      <class name="CounterWebApp.CounterWebApp.AppTest">
+        <test-method status="PASS" signature="verifylaunchpage()[pri:0, instance:CounterWebApp.CounterWebApp.AppTest@675d3402]" name="verifylaunchpage" duration-ms="42758" started-at="2017-03-17T21:52:10Z" finished-at="2017-03-17T21:52:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylaunchpage -->
+      </class> <!-- CounterWebApp.CounterWebApp.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
