@@ -20,12 +20,13 @@ public class AppTest
 	{
 		WebDriver driver  = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.get("http://localhost:9999/CounterWebApp-1.0-SNAPSHOT/");
-		String eletext = driver.findElement(By.xpath("/html/body/h2")).getText();
-		System.out.println(eletext);
-		Assert.assertEquals(eletext, "Hello World!");
-		driver.close();
+		driver.get("http://localhost:9999/HRMSDP");
 		
+		String eletext = driver.findElement(By.xpath("//h2[contains(.,'Please sign in')]")).getText();
+	
+		System.out.println(eletext);
+		Assert.assertEquals(eletext, "Please sign in");
+		driver.close();
 		
 	}
 	
