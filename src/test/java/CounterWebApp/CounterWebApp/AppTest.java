@@ -1,13 +1,12 @@
 package CounterWebApp.CounterWebApp;
 
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
-import org.testng.annotations.Test;
-import org.testng.asserts.Assertion;
 
 /**
  * Unit test for simple App.
@@ -64,7 +63,6 @@ public class AppTest
 		driver.get("http://localhost:9999/HRMSDP");
 		String eletext = driver.findElement(By.xpath("//h2[contains(.,'Please sign in')]")).getText();
 		Assert.assertEquals(eletext, "Please sign in");
-		//driver.close();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.findElement(By.xpath("//input[@name='user.username']")).sendKeys("admin");
 		driver.findElement(By.xpath("//input[@name='user.password']")).sendKeys("12345");
