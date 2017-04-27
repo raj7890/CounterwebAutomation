@@ -1,5 +1,4 @@
 package CounterWebApp.CounterWebApp;
-import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,6 +6,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
+import org.testng.annotations.Test;
 
 /**
  * Unit test for simple App.
@@ -56,7 +56,7 @@ public class AppTest
 	
 	
 	@Test
-	public void verifylogin()
+	public void verifyMasterPage()
 	{
 		WebDriver driver  = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
