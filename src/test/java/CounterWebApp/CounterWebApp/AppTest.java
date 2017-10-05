@@ -20,7 +20,7 @@ public class AppTest
 	{
 		WebDriver driver  = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.get("http://localhost:9999/HRMSDP");
+		driver.get("http://172.16.3.61:8080/HRMSDP");
 		
 		String eletext = driver.findElement(By.xpath("//h2[contains(.,'Please sign in')]")).getText();
 	
@@ -35,7 +35,7 @@ public class AppTest
 	{
 		WebDriver driver  = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.get("http://localhost:9999/HRMSDP");
+		driver.get("http://172.16.3.61:8080/HRMSDP");
 		String eletext = driver.findElement(By.xpath("//h2[contains(.,'Please sign in')]")).getText();
 		Assert.assertEquals(eletext, "Please sign in");
 		//driver.close();
@@ -61,7 +61,7 @@ public class AppTest
 	{
 		WebDriver driver  = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.get("http://localhost:9999/HRMSDP");
+		driver.get("http://172.16.3.61:8080/HRMSDP");
 		String eletext = driver.findElement(By.xpath("//h2[contains(.,'Please sign in')]")).getText();
 		Assert.assertEquals(eletext, "Please sign in");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
