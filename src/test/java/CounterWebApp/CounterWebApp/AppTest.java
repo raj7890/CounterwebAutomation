@@ -28,7 +28,7 @@ public class AppTest
 		WebDriver driver = new ChromeDriver();
 		//WebDriver driver  = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.get("http://localhost:8080/HRMSDP/");
+		driver.get("http://172.16.3.61:8080/HRMSDP/");
 		
 		String eletext = driver.findElement(By.xpath("//h2[contains(.,'Please sign in')]")).getText();
 	
