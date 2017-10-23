@@ -35,7 +35,7 @@ public class AppTest
 		System.out.println(eletext);
 		Assert.assertEquals(eletext, "Please sign in");
 		driver.close();
-		driver.Quit()
+		driver.Quit();
 		
 	}
 	
@@ -56,7 +56,7 @@ public class AppTest
 		WebElement ele = driver.findElement(By.xpath("//input[@type='submit']"));
 		Actions action = new Actions(driver);
 		action.moveToElement(ele).build().perform();
-		driver.findElement(By.xpath("//input[@type='submit']"))..click();
+		driver.findElement(By.xpath("//input[@type='submit']")).click();
 		
 		String StrMasters= driver.findElement(By.xpath("//a[contains(.,'Masters')]")).getText();
 	        Assert.assertEquals(StrMasters, "Masters");
@@ -66,7 +66,7 @@ public class AppTest
 		driver.findElement(By.xpath("//a[contains(.,'Logout')]")).click();
 		String Strusername = driver.findElement(By.xpath("//input[@name='user.username']")).getAttribute("placeholder");
 		Assert.assertEquals(Strusername, "Username");
-		driver.Quit()
+		driver.Quit();
 		
 	
 	}
@@ -89,7 +89,7 @@ public class AppTest
 		WebElement ele = driver.findElement(By.xpath("//input[@type='submit']"));
 		Actions action = new Actions(driver);
 		action.moveToElement(ele).build().perform();
-		driver.findElement(By.xpath("//input[@type='submit']"))..click();
+		driver.findElement(By.xpath("//input[@type='submit']")).click();
 		
 		String StrMasters= driver.findElement(By.xpath("//a[contains(.,'Masters')]")).getText();
 		Assert.assertEquals(StrMasters, "Masters");
@@ -107,7 +107,7 @@ public class AppTest
 		driver.findElement(By.xpath("//a[contains(.,'Logout')]")).click();
 		String Strusername = driver.findElement(By.xpath("//input[@name='user.username']")).getAttribute("placeholder");
 		Assert.assertEquals(Strusername, "Username");
-		driver.Quit()
+		driver.Quit();
 		
 	
 	}
