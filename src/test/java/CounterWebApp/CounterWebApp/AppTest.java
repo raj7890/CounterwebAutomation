@@ -35,7 +35,7 @@ public class AppTest
 		System.out.println(eletext);
 		Assert.assertEquals(eletext, "Please sign in");
 		driver.close();
-		driver.Quit();
+		driver.quit();
 		
 	}
 	
@@ -66,7 +66,7 @@ public class AppTest
 		driver.findElement(By.xpath("//a[contains(.,'Logout')]")).click();
 		String Strusername = driver.findElement(By.xpath("//input[@name='user.username']")).getAttribute("placeholder");
 		Assert.assertEquals(Strusername, "Username");
-		driver.Quit();
+		driver.quit();
 		
 	
 	}
@@ -107,7 +107,7 @@ public class AppTest
 		driver.findElement(By.xpath("//a[contains(.,'Logout')]")).click();
 		String Strusername = driver.findElement(By.xpath("//input[@name='user.username']")).getAttribute("placeholder");
 		Assert.assertEquals(Strusername, "Username");
-		driver.Quit();
+		driver.quit();
 		
 	
 	}
