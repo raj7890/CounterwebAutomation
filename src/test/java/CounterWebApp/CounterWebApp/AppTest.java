@@ -28,7 +28,7 @@ public class AppTest
 		WebDriver driver = new ChromeDriver();
 		//WebDriver driver  = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.get("http://localhost:8080/HRMSDP/");
+		driver.get("http://localhost:9999/HRMSDP/");
 		
 		String eletext = driver.findElement(By.xpath("//h2[contains(.,'Please sign in')]")).getText();
 	
@@ -41,9 +41,10 @@ public class AppTest
 	@Test
 	public void verifylogin()
 	{
-		WebDriver driver  = new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+File.separator+"Browsers"+File.separator+"chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.get("http://localhost:8080/HRMSDP");
+		driver.get("http://localhost:9999/HRMSDP");
 		String eletext = driver.findElement(By.xpath("//h2[contains(.,'Please sign in')]")).getText();
 		Assert.assertEquals(eletext, "Please sign in");
 		//driver.close();
@@ -67,9 +68,10 @@ public class AppTest
 	@Test
 	public void verifyMasterPage()
 	{
-		WebDriver driver  = new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+File.separator+"Browsers"+File.separator+"chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.get("http://localhost:8080/HRMSDP");
+		driver.get("http://localhost:9999/HRMSDP");
 		String eletext = driver.findElement(By.xpath("//h2[contains(.,'Please sign in')]")).getText();
 		Assert.assertEquals(eletext, "Please sign in");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
