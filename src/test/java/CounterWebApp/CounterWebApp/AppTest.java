@@ -61,8 +61,8 @@ public class AppTest
 		String StrMasters= driver.findElement(By.xpath("//a[contains(.,'Masters')]")).getText();
 	        Assert.assertEquals(StrMasters, "Masters");
 		WebElement ele = driver.findElement(By.xpath("//a[@class='dropdown-toggle']"));
-		Actions action = new Actions(driver);
-		action.moveToElement(ele).build().perform();
+		Actions action1 = new Actions(driver);
+		action1.moveToElement(ele).build().perform();
 		driver.findElement(By.xpath("//a[contains(.,'Logout')]")).click();
 		String Strusername = driver.findElement(By.xpath("//input[@name='user.username']")).getAttribute("placeholder");
 		Assert.assertEquals(Strusername, "Username");
@@ -87,8 +87,8 @@ public class AppTest
 		///driver.findElement(By.xpath("//input[@type='submit']")).click();
 		
 		WebElement ee = driver.findElement(By.xpath("//input[@type='submit']"));
-		Actions action = new Actions(driver);
-		action.moveToElement(ee).build().perform();
+		Actions action2 = new Actions(driver);
+		action2.moveToElement(ee).build().perform();
 		driver.findElement(By.xpath("//input[@type='submit']")).click();
 		
 		String StrMasters= driver.findElement(By.xpath("//a[contains(.,'Masters')]")).getText();
@@ -102,8 +102,8 @@ public class AppTest
 		driver.findElement(By.xpath("//input[@name='empf.empTypeId']")).sendKeys("R&D");
 		driver.findElement(By.xpath("//input[@name='empf.description']")).sendKeys("Reasearch & Development");
 		WebElement ele = driver.findElement(By.xpath("//a[@class='dropdown-toggle']"));
-		Actions action = new Actions(driver);
-		action.moveToElement(ele).build().perform();
+		Actions action3 = new Actions(driver);
+		action3.moveToElement(ele).build().perform();
 		driver.findElement(By.xpath("//a[contains(.,'Logout')]")).click();
 		String Strusername = driver.findElement(By.xpath("//input[@name='user.username']")).getAttribute("placeholder");
 		Assert.assertEquals(Strusername, "Username");
