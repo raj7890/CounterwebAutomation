@@ -53,9 +53,9 @@ public class AppTest
 		driver.findElement(By.xpath("//input[@name='user.username']")).sendKeys("admin");
 		driver.findElement(By.xpath("//input[@name='user.password']")).sendKeys("12345");		
 		
-		WebElement ele = driver.findElement(By.xpath("//input[@type='submit']"));
+		WebElement el = driver.findElement(By.xpath("//input[@type='submit']"));
 		Actions action = new Actions(driver);
-		action.moveToElement(ele).build().perform();
+		action.moveToElement(el).build().perform();
 		driver.findElement(By.xpath("//input[@type='submit']")).click();
 		
 		String StrMasters= driver.findElement(By.xpath("//a[contains(.,'Masters')]")).getText();
@@ -86,9 +86,9 @@ public class AppTest
 		driver.findElement(By.xpath("//input[@name='user.password']")).sendKeys("12345");
 		///driver.findElement(By.xpath("//input[@type='submit']")).click();
 		
-		WebElement ele = driver.findElement(By.xpath("//input[@type='submit']"));
+		WebElement ee = driver.findElement(By.xpath("//input[@type='submit']"));
 		Actions action = new Actions(driver);
-		action.moveToElement(ele).build().perform();
+		action.moveToElement(ee).build().perform();
 		driver.findElement(By.xpath("//input[@type='submit']")).click();
 		
 		String StrMasters= driver.findElement(By.xpath("//a[contains(.,'Masters')]")).getText();
