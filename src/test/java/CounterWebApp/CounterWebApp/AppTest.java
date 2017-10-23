@@ -35,6 +35,7 @@ public class AppTest
 		System.out.println(eletext);
 		Assert.assertEquals(eletext, "Please sign in");
 		driver.close();
+		driver.Quit()
 		
 	}
 	
@@ -50,16 +51,22 @@ public class AppTest
 		//driver.close();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.findElement(By.xpath("//input[@name='user.username']")).sendKeys("admin");
-		driver.findElement(By.xpath("//input[@name='user.password']")).sendKeys("12345");
-		driver.findElement(By.xpath("//input[@type='submit']")).click();	
+		driver.findElement(By.xpath("//input[@name='user.password']")).sendKeys("12345");		
+		
+		WebElement ele = driver.findElement(By.xpath("//input[@type='submit']"));
+		Actions action = new Actions(driver);
+		action.moveToElement(ele).build().perform();
+		driver.findElement(By.xpath("//input[@type='submit']"))..click();
+		
 		String StrMasters= driver.findElement(By.xpath("//a[contains(.,'Masters')]")).getText();
-	Assert.assertEquals(StrMasters, "Masters");
+	        Assert.assertEquals(StrMasters, "Masters");
 		WebElement ele = driver.findElement(By.xpath("//a[@class='dropdown-toggle']"));
 		Actions action = new Actions(driver);
 		action.moveToElement(ele).build().perform();
 		driver.findElement(By.xpath("//a[contains(.,'Logout')]")).click();
 		String Strusername = driver.findElement(By.xpath("//input[@name='user.username']")).getAttribute("placeholder");
 		Assert.assertEquals(Strusername, "Username");
+		driver.Quit()
 		
 	
 	}
@@ -77,7 +84,13 @@ public class AppTest
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.findElement(By.xpath("//input[@name='user.username']")).sendKeys("admin");
 		driver.findElement(By.xpath("//input[@name='user.password']")).sendKeys("12345");
-		driver.findElement(By.xpath("//input[@type='submit']")).click();	
+		///driver.findElement(By.xpath("//input[@type='submit']")).click();
+		
+		WebElement ele = driver.findElement(By.xpath("//input[@type='submit']"));
+		Actions action = new Actions(driver);
+		action.moveToElement(ele).build().perform();
+		driver.findElement(By.xpath("//input[@type='submit']"))..click();
+		
 		String StrMasters= driver.findElement(By.xpath("//a[contains(.,'Masters')]")).getText();
 		Assert.assertEquals(StrMasters, "Masters");
 		driver.findElement(By.xpath("//a[contains(.,'Masters')]")).click();	
@@ -94,6 +107,7 @@ public class AppTest
 		driver.findElement(By.xpath("//a[contains(.,'Logout')]")).click();
 		String Strusername = driver.findElement(By.xpath("//input[@name='user.username']")).getAttribute("placeholder");
 		Assert.assertEquals(Strusername, "Username");
+		driver.Quit()
 		
 	
 	}
