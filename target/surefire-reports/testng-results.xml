@@ -1,17 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="CounterWebApp.CounterWebApp.AppTest" duration-ms="9588" started-at="2017-03-15T05:00:03Z" finished-at="2017-03-15T05:00:12Z">
+  <suite name="Suite" duration-ms="271036" started-at="2017-10-25T10:16:53Z" finished-at="2017-10-25T10:21:24Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="9588" started-at="2017-03-15T05:00:03Z" finished-at="2017-03-15T05:00:12Z">
-      <class name="CounterWebApp.CounterWebApp.AppTest">
-        <test-method status="PASS" signature="verifylaunchpage()[pri:0, instance:CounterWebApp.CounterWebApp.AppTest@6b2fad11]" name="verifylaunchpage" duration-ms="9571" started-at="2017-03-15T10:30:03Z" finished-at="2017-03-15T10:30:12Z">
+    <test name="Test" duration-ms="271036" started-at="2017-10-25T10:16:53Z" finished-at="2017-10-25T10:21:24Z">
+      <class name="hrmsdp.testscripts.verifyMasterPage">
+        <test-method status="PASS" signature="verifyMasterPage()[pri:0, instance:hrmsdp.testscripts.verifyMasterPage@2acf57e3]" name="verifyMasterPage" duration-ms="68300" started-at="2017-10-25T15:50:16Z" finished-at="2017-10-25T15:51:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMasterPage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:hrmsdp.testscripts.verifyMasterPage@2acf57e3]" name="getResult" is-config="true" duration-ms="0" started-at="2017-10-25T15:51:24Z" finished-at="2017-10-25T15:51:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMasterPage status=SUCCESS method=verifyMasterPage.verifyMasterPage()[pri:0, instance:hrmsdp.testscripts.verifyMasterPage@2acf57e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- hrmsdp.testscripts.verifyMasterPage -->
+      <class name="hrmsdp.testscripts.verifylaunchpage">
+        <test-method status="PASS" signature="verifylaunchpage()[pri:0, instance:hrmsdp.testscripts.verifylaunchpage@2812cbfa]" name="verifylaunchpage" duration-ms="90607" started-at="2017-10-25T15:46:53Z" finished-at="2017-10-25T15:48:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifylaunchpage -->
-      </class> <!-- CounterWebApp.CounterWebApp.AppTest -->
-    </test> <!-- Command line test -->
-  </suite> <!-- CounterWebApp.CounterWebApp.AppTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:hrmsdp.testscripts.verifylaunchpage@2812cbfa]" name="getResult" is-config="true" duration-ms="3" started-at="2017-10-25T15:48:24Z" finished-at="2017-10-25T15:48:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifylaunchpage status=SUCCESS method=verifylaunchpage.verifylaunchpage()[pri:0, instance:hrmsdp.testscripts.verifylaunchpage@2812cbfa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- hrmsdp.testscripts.verifylaunchpage -->
+      <class name="hrmsdp.testscripts.Verifylogin">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:hrmsdp.testscripts.Verifylogin@511baa65]" name="startReport" is-config="true" duration-ms="628" started-at="2017-10-25T15:46:53Z" finished-at="2017-10-25T15:46:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="verifylogin()[pri:0, instance:hrmsdp.testscripts.Verifylogin@511baa65]" name="verifylogin" duration-ms="112113" started-at="2017-10-25T15:48:24Z" finished-at="2017-10-25T15:50:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogin -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:hrmsdp.testscripts.Verifylogin@511baa65]" name="getResult" is-config="true" duration-ms="1" started-at="2017-10-25T15:50:16Z" finished-at="2017-10-25T15:50:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifylogin status=SUCCESS method=Verifylogin.verifylogin()[pri:0, instance:hrmsdp.testscripts.Verifylogin@511baa65] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:hrmsdp.testscripts.Verifylogin@511baa65]" name="endReport" is-config="true" duration-ms="5026" started-at="2017-10-25T15:51:25Z" finished-at="2017-10-25T15:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- hrmsdp.testscripts.Verifylogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
