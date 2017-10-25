@@ -17,17 +17,10 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_60/lib/ant-javafx.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_60/lib/dt.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_60/lib/javafx-mx.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_60/lib/jconsole.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_60/lib/packager.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_60/lib/sa-jdi.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_60/lib/tools.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

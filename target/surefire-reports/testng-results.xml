@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="271036" started-at="2017-10-25T10:16:53Z" finished-at="2017-10-25T10:21:24Z">
+  <suite name="Suite" duration-ms="45233" started-at="2017-10-25T10:30:31Z" finished-at="2017-10-25T10:31:16Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="271036" started-at="2017-10-25T10:16:53Z" finished-at="2017-10-25T10:21:24Z">
+    <test name="Test" duration-ms="45233" started-at="2017-10-25T10:30:31Z" finished-at="2017-10-25T10:31:16Z">
       <class name="hrmsdp.testscripts.verifyMasterPage">
-        <test-method status="PASS" signature="verifyMasterPage()[pri:0, instance:hrmsdp.testscripts.verifyMasterPage@2acf57e3]" name="verifyMasterPage" duration-ms="68300" started-at="2017-10-25T15:50:16Z" finished-at="2017-10-25T15:51:24Z">
+        <test-method status="PASS" signature="verifyMasterPage()[pri:0, instance:hrmsdp.testscripts.verifyMasterPage@2acf57e3]" name="verifyMasterPage" duration-ms="14791" started-at="2017-10-25T16:01:01Z" finished-at="2017-10-25T16:01:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMasterPage -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:hrmsdp.testscripts.verifyMasterPage@2acf57e3]" name="getResult" is-config="true" duration-ms="0" started-at="2017-10-25T15:51:24Z" finished-at="2017-10-25T15:51:24Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:hrmsdp.testscripts.verifyMasterPage@2acf57e3]" name="getResult" is-config="true" duration-ms="0" started-at="2017-10-25T16:01:16Z" finished-at="2017-10-25T16:01:16Z">
           <params>
             <param index="0">
               <value>
@@ -24,11 +24,11 @@
         </test-method> <!-- getResult -->
       </class> <!-- hrmsdp.testscripts.verifyMasterPage -->
       <class name="hrmsdp.testscripts.verifylaunchpage">
-        <test-method status="PASS" signature="verifylaunchpage()[pri:0, instance:hrmsdp.testscripts.verifylaunchpage@2812cbfa]" name="verifylaunchpage" duration-ms="90607" started-at="2017-10-25T15:46:53Z" finished-at="2017-10-25T15:48:24Z">
+        <test-method status="PASS" signature="verifylaunchpage()[pri:0, instance:hrmsdp.testscripts.verifylaunchpage@2812cbfa]" name="verifylaunchpage" duration-ms="16924" started-at="2017-10-25T16:00:31Z" finished-at="2017-10-25T16:00:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifylaunchpage -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:hrmsdp.testscripts.verifylaunchpage@2812cbfa]" name="getResult" is-config="true" duration-ms="3" started-at="2017-10-25T15:48:24Z" finished-at="2017-10-25T15:48:24Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:hrmsdp.testscripts.verifylaunchpage@2812cbfa]" name="getResult" is-config="true" duration-ms="6" started-at="2017-10-25T16:00:48Z" finished-at="2017-10-25T16:00:48Z">
           <params>
             <param index="0">
               <value>
@@ -41,15 +41,15 @@
         </test-method> <!-- getResult -->
       </class> <!-- hrmsdp.testscripts.verifylaunchpage -->
       <class name="hrmsdp.testscripts.Verifylogin">
-        <test-method status="PASS" signature="startReport()[pri:0, instance:hrmsdp.testscripts.Verifylogin@511baa65]" name="startReport" is-config="true" duration-ms="628" started-at="2017-10-25T15:46:53Z" finished-at="2017-10-25T15:46:53Z">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:hrmsdp.testscripts.Verifylogin@511baa65]" name="startReport" is-config="true" duration-ms="232" started-at="2017-10-25T16:00:31Z" finished-at="2017-10-25T16:00:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="verifylogin()[pri:0, instance:hrmsdp.testscripts.Verifylogin@511baa65]" name="verifylogin" duration-ms="112113" started-at="2017-10-25T15:48:24Z" finished-at="2017-10-25T15:50:16Z">
+        <test-method status="PASS" signature="verifylogin()[pri:0, instance:hrmsdp.testscripts.Verifylogin@511baa65]" name="verifylogin" duration-ms="13504" started-at="2017-10-25T16:00:48Z" finished-at="2017-10-25T16:01:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifylogin -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:hrmsdp.testscripts.Verifylogin@511baa65]" name="getResult" is-config="true" duration-ms="1" started-at="2017-10-25T15:50:16Z" finished-at="2017-10-25T15:50:16Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:hrmsdp.testscripts.Verifylogin@511baa65]" name="getResult" is-config="true" duration-ms="1" started-at="2017-10-25T16:01:01Z" finished-at="2017-10-25T16:01:01Z">
           <params>
             <param index="0">
               <value>
@@ -60,7 +60,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:hrmsdp.testscripts.Verifylogin@511baa65]" name="endReport" is-config="true" duration-ms="5026" started-at="2017-10-25T15:51:25Z" finished-at="2017-10-25T15:51:30Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:hrmsdp.testscripts.Verifylogin@511baa65]" name="endReport" is-config="true" duration-ms="320" started-at="2017-10-25T16:01:16Z" finished-at="2017-10-25T16:01:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
