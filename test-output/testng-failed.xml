@@ -3,11 +3,25 @@
 <suite name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
-      <class name="CounterWebApp.CounterWebApp.AppTest">
+      <class name="hrmsdp.testscripts.verifylaunchpage">
         <methods>
-          <include name="verifylaunchpage"/>
+          <include name="startReport"/>
+          <include name="endReport"/>
+          <include name="getResult"/>
         </methods>
-      </class> <!-- CounterWebApp.CounterWebApp.AppTest -->
+      </class> <!-- hrmsdp.testscripts.verifylaunchpage -->
+      <class name="hrmsdp.testscripts.Verifylogin">
+        <methods>
+          <include name="verifylogin"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- hrmsdp.testscripts.Verifylogin -->
+      <class name="hrmsdp.testscripts.verifyMasterPage">
+        <methods>
+          <include name="verifyMasterPage"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- hrmsdp.testscripts.verifyMasterPage -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

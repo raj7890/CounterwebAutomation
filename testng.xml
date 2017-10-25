@@ -3,7 +3,9 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="CounterWebApp.CounterWebApp.AppTest"/>
+      <class name="hrmsdp.testscripts.verifylaunchpage"/>
+      <class name="hrmsdp.testscripts.Verifylogin"/>
+      <class name="hrmsdp.testscripts.verifyMasterPage"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
