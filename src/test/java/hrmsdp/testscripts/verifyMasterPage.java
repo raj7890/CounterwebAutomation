@@ -15,6 +15,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.relevantcodes.extentreports.ExtentReports;
@@ -26,15 +27,26 @@ import com.relevantcodes.extentreports.LogStatus;
  */
 public class verifyMasterPage extends ExtentReportsClass
 {
-		
+	@Parameters({ "browser","Environment" })	
 	@Test
-	public void verifyMasterPage()
+	public void verifyMasterPage(String browser,String Environment)
 	{
 		logger = extent.startTest("verifyMasterPage");
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+File.separator+"Browsers"+File.separator+"chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
+		WebDriver driver = null;
+		if(browser.equalsIgnoreCase("Chrome")){
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+File.separator+"Browsers"+File.separator+"chromedriver.exe");
+			driver = new ChromeDriver();
+		}else{
+			System.out.println("not yet implemented");
+		}		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.get("http://172.16.3.61:8080/HRMSDP/");
+		
+		if(Environment.equalsIgnoreCase("Dev")){
+			driver.get("http://172.16.3.61:8080/HRMSDP/");
+		}else{
+			System.out.println("not yet implemented");
+		}
+		
 		String eletext = driver.findElement(By.xpath("//h2[contains(.,'Please sign in')]")).getText();	
 		
 		if (eletext.contains("Please sign in"))
