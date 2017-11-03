@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="3" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="54854" started-at="2017-11-01T11:35:42Z" finished-at="2017-11-01T11:36:37Z">
+  <suite name="Suite" duration-ms="66834" started-at="2017-11-03T11:12:21Z" finished-at="2017-11-03T11:13:28Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="54854" started-at="2017-11-01T11:35:42Z" finished-at="2017-11-01T11:36:37Z">
+    <test name="Test" duration-ms="66834" started-at="2017-11-03T11:12:21Z" finished-at="2017-11-03T11:13:28Z">
       <class name="hrmsdp.testscripts.verifyMasterPage">
-        <test-method status="PASS" signature="startReport()[pri:0, instance:hrmsdp.testscripts.verifyMasterPage@57829d67]" name="startReport" is-config="true" duration-ms="1380" started-at="2017-11-01T17:05:41Z" finished-at="2017-11-01T17:05:42Z">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:hrmsdp.testscripts.verifyMasterPage@57829d67]" name="startReport" is-config="true" duration-ms="1805" started-at="2017-11-03T16:42:19Z" finished-at="2017-11-03T16:42:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="FAIL" signature="verifyMasterPage(java.lang.String, java.lang.String)[pri:0, instance:hrmsdp.testscripts.verifyMasterPage@57829d67]" name="verifyMasterPage" duration-ms="15713" started-at="2017-11-01T17:06:21Z" finished-at="2017-11-01T17:06:37Z">
+        <test-method status="FAIL" signature="verifyMasterPage(java.lang.String, java.lang.String)[pri:0, instance:hrmsdp.testscripts.verifyMasterPage@57829d67]" name="verifyMasterPage" duration-ms="9123" started-at="2017-11-03T16:43:19Z" finished-at="2017-11-03T16:43:28Z">
           <params>
             <param index="0">
               <value>
@@ -30,12 +30,12 @@
 from unknown error: web view not found
   (Session info: chrome=61.0.3163.100)
   (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5 milliseconds
+Command duration or timeout: 4 milliseconds
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'HW1436', ip: '10.250.84.17', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\E000742\AppData\Local\Temp\scoped_dir9732_12610}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 14f8a4c56eb67ed90a26c7c7bac00289
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\E000742\AppData\Local\Temp\scoped_dir8448_24813}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 17a4c43b2c38827b0fa78d7c9526660d
 *** Element info: {Using=xpath, value=//h2[contains(.,'Please sign in')]}]]>
             </message>
             <full-stacktrace>
@@ -43,17 +43,17 @@ Session ID: 14f8a4c56eb67ed90a26c7c7bac00289
 from unknown error: web view not found
   (Session info: chrome=61.0.3163.100)
   (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5 milliseconds
+Command duration or timeout: 4 milliseconds
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'HW1436', ip: '10.250.84.17', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\E000742\AppData\Local\Temp\scoped_dir9732_12610}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 14f8a4c56eb67ed90a26c7c7bac00289
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\E000742\AppData\Local\Temp\scoped_dir8448_24813}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 17a4c43b2c38827b0fa78d7c9526660d
 *** Element info: {Using=xpath, value=//h2[contains(.,'Please sign in')]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
@@ -63,9 +63,9 @@ Session ID: 14f8a4c56eb67ed90a26c7c7bac00289
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
 	at hrmsdp.testscripts.verifyMasterPage.verifyMasterPage(verifyMasterPage.java:50)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
@@ -95,7 +95,7 @@ Session ID: 14f8a4c56eb67ed90a26c7c7bac00289
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMasterPage -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:hrmsdp.testscripts.verifyMasterPage@57829d67]" name="getResult" is-config="true" duration-ms="1" started-at="2017-11-01T17:06:37Z" finished-at="2017-11-01T17:06:37Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:hrmsdp.testscripts.verifyMasterPage@57829d67]" name="getResult" is-config="true" duration-ms="1" started-at="2017-11-03T16:43:28Z" finished-at="2017-11-03T16:43:28Z">
           <params>
             <param index="0">
               <value>
@@ -106,13 +106,13 @@ Session ID: 14f8a4c56eb67ed90a26c7c7bac00289
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:hrmsdp.testscripts.verifyMasterPage@57829d67]" name="endReport" is-config="true" duration-ms="834" started-at="2017-11-01T17:06:38Z" finished-at="2017-11-01T17:06:38Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:hrmsdp.testscripts.verifyMasterPage@57829d67]" name="endReport" is-config="true" duration-ms="499" started-at="2017-11-03T16:43:28Z" finished-at="2017-11-03T16:43:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
       </class> <!-- hrmsdp.testscripts.verifyMasterPage -->
       <class name="hrmsdp.testscripts.verifylaunchpage">
-        <test-method status="FAIL" signature="verifylaunchpage(java.lang.String, java.lang.String)[pri:0, instance:hrmsdp.testscripts.verifylaunchpage@67b64c45]" name="verifylaunchpage" duration-ms="21632" started-at="2017-11-01T17:05:42Z" finished-at="2017-11-01T17:06:04Z">
+        <test-method status="FAIL" signature="verifylaunchpage(java.lang.String, java.lang.String)[pri:0, instance:hrmsdp.testscripts.verifylaunchpage@67b64c45]" name="verifylaunchpage" duration-ms="50903" started-at="2017-11-03T16:42:21Z" finished-at="2017-11-03T16:43:12Z">
           <params>
             <param index="0">
               <value>
@@ -125,36 +125,36 @@ Session ID: 14f8a4c56eb67ed90a26c7c7bac00289
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h2[contains(.,'Please sign in')]"}
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=61.0.3163.100)
   (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10.05 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Command duration or timeout: 3 milliseconds
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'HW1436', ip: '10.250.84.17', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\E000742\AppData\Local\Temp\scoped_dir9964_4499}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 1fc4322a052a08077ad7e3bb691c655a
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\E000742\AppData\Local\Temp\scoped_dir11576_17028}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f12a7143259e0a34e1e0dc7c61f29a08
 *** Element info: {Using=xpath, value=//h2[contains(.,'Please sign in')]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h2[contains(.,'Please sign in')]"}
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=61.0.3163.100)
   (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10.05 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Command duration or timeout: 3 milliseconds
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'HW1436', ip: '10.250.84.17', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\E000742\AppData\Local\Temp\scoped_dir9964_4499}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 1fc4322a052a08077ad7e3bb691c655a
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\E000742\AppData\Local\Temp\scoped_dir11576_17028}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f12a7143259e0a34e1e0dc7c61f29a08
 *** Element info: {Using=xpath, value=//h2[contains(.,'Please sign in')]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
@@ -164,9 +164,9 @@ Session ID: 1fc4322a052a08077ad7e3bb691c655a
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
 	at hrmsdp.testscripts.verifylaunchpage.verifylaunchpage(verifylaunchpage.java:55)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
@@ -192,11 +192,11 @@ Session ID: 1fc4322a052a08077ad7e3bb691c655a
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifylaunchpage -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:hrmsdp.testscripts.verifylaunchpage@67b64c45]" name="getResult" is-config="true" duration-ms="3" started-at="2017-11-01T17:06:04Z" finished-at="2017-11-01T17:06:04Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:hrmsdp.testscripts.verifylaunchpage@67b64c45]" name="getResult" is-config="true" duration-ms="2" started-at="2017-11-03T16:43:12Z" finished-at="2017-11-03T16:43:12Z">
           <params>
             <param index="0">
               <value>
@@ -209,7 +209,7 @@ Session ID: 1fc4322a052a08077ad7e3bb691c655a
         </test-method> <!-- getResult -->
       </class> <!-- hrmsdp.testscripts.verifylaunchpage -->
       <class name="hrmsdp.testscripts.Verifylogin">
-        <test-method status="FAIL" signature="verifylogin(java.lang.String, java.lang.String)[pri:0, instance:hrmsdp.testscripts.Verifylogin@3796751b]" name="verifylogin" duration-ms="17461" started-at="2017-11-01T17:06:04Z" finished-at="2017-11-01T17:06:21Z">
+        <test-method status="FAIL" signature="verifylogin(java.lang.String, java.lang.String)[pri:0, instance:hrmsdp.testscripts.Verifylogin@3796751b]" name="verifylogin" duration-ms="6776" started-at="2017-11-03T16:43:12Z" finished-at="2017-11-03T16:43:19Z">
           <params>
             <param index="0">
               <value>
@@ -222,36 +222,36 @@ Session ID: 1fc4322a052a08077ad7e3bb691c655a
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h2[contains(.,'Please sign in')]"}
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=61.0.3163.100)
   (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10.04 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Command duration or timeout: 3 milliseconds
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'HW1436', ip: '10.250.84.17', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\E000742\AppData\Local\Temp\scoped_dir5012_27933}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 93c4301f1888b5926a417f83ec77e427
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\E000742\AppData\Local\Temp\scoped_dir12284_17376}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 76eee8ca1f929a045da9f71d208c6774
 *** Element info: {Using=xpath, value=//h2[contains(.,'Please sign in')]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h2[contains(.,'Please sign in')]"}
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=61.0.3163.100)
   (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10.04 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Command duration or timeout: 3 milliseconds
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'HW1436', ip: '10.250.84.17', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\E000742\AppData\Local\Temp\scoped_dir5012_27933}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 93c4301f1888b5926a417f83ec77e427
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\E000742\AppData\Local\Temp\scoped_dir12284_17376}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 76eee8ca1f929a045da9f71d208c6774
 *** Element info: {Using=xpath, value=//h2[contains(.,'Please sign in')]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
@@ -261,9 +261,9 @@ Session ID: 93c4301f1888b5926a417f83ec77e427
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
 	at hrmsdp.testscripts.Verifylogin.verifylogin(Verifylogin.java:55)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
@@ -289,11 +289,11 @@ Session ID: 93c4301f1888b5926a417f83ec77e427
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifylogin -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:hrmsdp.testscripts.Verifylogin@3796751b]" name="getResult" is-config="true" duration-ms="1" started-at="2017-11-01T17:06:21Z" finished-at="2017-11-01T17:06:21Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:hrmsdp.testscripts.Verifylogin@3796751b]" name="getResult" is-config="true" duration-ms="1" started-at="2017-11-03T16:43:19Z" finished-at="2017-11-03T16:43:19Z">
           <params>
             <param index="0">
               <value>
