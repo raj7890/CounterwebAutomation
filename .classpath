@@ -17,23 +17,10 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_144/lib/ant-javafx.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_144/lib/dt.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_144/lib/javafx-mx.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_144/lib/jconsole.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_144/lib/packager.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_144/lib/sa-jdi.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_144/lib/tools.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_144/jre/lib/charsets.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_144/jre/lib/deploy.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_144/jre/lib/javaws.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_144/jre/lib/jce.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_144/jre/lib/jfr.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_144/jre/lib/jfxswt.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_144/jre/lib/jsse.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_144/jre/lib/management-agent.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_144/jre/lib/plugin.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_144/jre/lib/resources.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
