@@ -1,27 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="Environment" value="Dev"/>
   <test name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="Environment" value="Dev"/>
     <classes>
-      <class name="hrmsdp.testscripts.verifylaunchpage">
+      <class name="hrmsdp.testscripts.verifyMasterPage">
         <methods>
           <include name="startReport"/>
           <include name="endReport"/>
-          <include name="getResult"/>
-        </methods>
-      </class> <!-- hrmsdp.testscripts.verifylaunchpage -->
-      <class name="hrmsdp.testscripts.Verifylogin">
-        <methods>
-          <include name="verifylogin"/>
-          <include name="getResult"/>
-        </methods>
-      </class> <!-- hrmsdp.testscripts.Verifylogin -->
-      <class name="hrmsdp.testscripts.verifyMasterPage">
-        <methods>
-          <include name="verifyMasterPage"/>
+          <include name="verifyMasterPage" invocation-numbers="0"/>
           <include name="getResult"/>
         </methods>
       </class> <!-- hrmsdp.testscripts.verifyMasterPage -->
+      <class name="hrmsdp.testscripts.Verifylogin">
+        <methods>
+          <include name="verifylogin" invocation-numbers="0"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- hrmsdp.testscripts.Verifylogin -->
+      <class name="hrmsdp.testscripts.verifylaunchpage">
+        <methods>
+          <include name="verifylaunchpage" invocation-numbers="0"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- hrmsdp.testscripts.verifylaunchpage -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

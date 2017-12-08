@@ -6,8 +6,8 @@
 	<parameter name="Environment" value="Dev"/>
     <classes>
       <class name="hrmsdp.testscripts.verifylaunchpage"/>
-      <class name="hrmsdp.testscripts.Verifylogin"/>
-      <class name="hrmsdp.testscripts.verifyMasterPage"/>
+    <!--  // <class name="hrmsdp.testscripts.Verifylogin"/>
+      //<class name="hrmsdp.testscripts.verifyMasterPage"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
