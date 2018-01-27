@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="CounterWebApp.CounterWebApp.AppTest">
+      <class name="hrmsdp.testscripts.verifylaunchpage">
         <methods>
+          <include name="startReport"/>
+          <include name="endReport"/>
           <include name="verifylaunchpage"/>
         </methods>
-      </class> <!-- CounterWebApp.CounterWebApp.AppTest -->
+      </class> <!-- hrmsdp.testscripts.verifylaunchpage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

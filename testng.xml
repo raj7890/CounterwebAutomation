@@ -3,11 +3,12 @@
 <suite name="Suite">
   <test name="Test">
   	<parameter name="browser" value="chrome"/>
-	<parameter name="Environment" value="Dev"/>
+	<parameter name="Environment" value="test"/>
+    <parameter name="OS" value="windows"/>
     <classes>
       <class name="hrmsdp.testscripts.verifylaunchpage"/>
-      <class name="hrmsdp.testscripts.Verifylogin"/>
+    <!--   <class name="hrmsdp.testscripts.Verifylogin"/>
       <class name="hrmsdp.testscripts.verifyMasterPage"/>
-    </classes>
+ -->    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

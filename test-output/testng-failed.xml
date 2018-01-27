@@ -1,27 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
+  <parameter name="OS" value="windows"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="Environment" value="test"/>
   <test name="Test(failed)">
+    <parameter name="OS" value="windows"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="Environment" value="test"/>
     <classes>
       <class name="hrmsdp.testscripts.verifylaunchpage">
         <methods>
           <include name="startReport"/>
           <include name="endReport"/>
+          <include name="launchpage" invocation-numbers="0"/>
           <include name="getResult"/>
         </methods>
       </class> <!-- hrmsdp.testscripts.verifylaunchpage -->
-      <class name="hrmsdp.testscripts.Verifylogin">
-        <methods>
-          <include name="verifylogin"/>
-          <include name="getResult"/>
-        </methods>
-      </class> <!-- hrmsdp.testscripts.Verifylogin -->
-      <class name="hrmsdp.testscripts.verifyMasterPage">
-        <methods>
-          <include name="verifyMasterPage"/>
-          <include name="getResult"/>
-        </methods>
-      </class> <!-- hrmsdp.testscripts.verifyMasterPage -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

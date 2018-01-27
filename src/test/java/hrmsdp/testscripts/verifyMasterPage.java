@@ -34,7 +34,8 @@ public class verifyMasterPage extends ExtentReportsClass
 		logger = extent.startTest("verifyMasterPage");
 		WebDriver driver = null;
 		if(browser.equalsIgnoreCase("Chrome")){
-			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+File.separator+"Browsers"+File.separator+"chromedriver.exe");
+			//System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+File.separator+"Browsers"+File.separator+"chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "/HRMDSP_Automation/Browsers/chromedriver");
 			driver = new ChromeDriver();
 		}else{
 			System.out.println("not yet implemented");
@@ -42,7 +43,7 @@ public class verifyMasterPage extends ExtentReportsClass
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 		if(Environment.equalsIgnoreCase("Dev")){
-			driver.get("http://172.16.3.61:8080/HRMSDP/");
+			driver.get("http://localhost:9999/HRMSDP/");
 		}else{
 			System.out.println("not yet implemented");
 		}
