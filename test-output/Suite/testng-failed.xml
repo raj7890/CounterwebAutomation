@@ -1,19 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
+<<<<<<< HEAD
   <parameter name="OS" value="windows"/>
   <parameter name="browser" value="chrome"/>
   <parameter name="Environment" value="test"/>
+=======
+  <parameter name="browser" value="chrome"/>
+  <parameter name="Environment" value="Dev"/>
+>>>>>>> branch 'master' of https://github.com/raj7890/HRMDSP_Automation.git
   <test name="Test(failed)">
+<<<<<<< HEAD
     <parameter name="OS" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <parameter name="Environment" value="test"/>
+=======
+    <parameter name="browser" value="chrome"/>
+    <parameter name="Environment" value="Dev"/>
+>>>>>>> branch 'master' of https://github.com/raj7890/HRMDSP_Automation.git
     <classes>
-      <class name="hrmsdp.testscripts.verifylaunchpage">
+      <class name="hrmsdp.testscripts.verifyMasterPage">
         <methods>
           <include name="startReport"/>
           <include name="endReport"/>
+<<<<<<< HEAD
           <include name="launchpage" invocation-numbers="0"/>
+=======
+          <include name="verifyMasterPage" invocation-numbers="0"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- hrmsdp.testscripts.verifyMasterPage -->
+      <class name="hrmsdp.testscripts.Verifylogin">
+        <methods>
+          <include name="verifylogin" invocation-numbers="0"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- hrmsdp.testscripts.Verifylogin -->
+      <class name="hrmsdp.testscripts.verifylaunchpage">
+        <methods>
+          <include name="verifylaunchpage" invocation-numbers="0"/>
+>>>>>>> branch 'master' of https://github.com/raj7890/HRMDSP_Automation.git
           <include name="getResult"/>
         </methods>
       </class> <!-- hrmsdp.testscripts.verifylaunchpage -->

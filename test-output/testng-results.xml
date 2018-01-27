@@ -2,16 +2,32 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite name="Suite" duration-ms="8588" started-at="2018-01-27T04:17:14Z" finished-at="2018-01-27T04:17:22Z">
+=======
+  <suite name="Suite" duration-ms="34558" started-at="2017-12-08T09:52:47Z" finished-at="2017-12-08T09:53:22Z">
+>>>>>>> branch 'master' of https://github.com/raj7890/HRMDSP_Automation.git
     <groups>
     </groups>
+<<<<<<< HEAD
     <test name="Test" duration-ms="8588" started-at="2018-01-27T04:17:14Z" finished-at="2018-01-27T04:17:22Z">
+=======
+    <test name="Test" duration-ms="34558" started-at="2017-12-08T09:52:47Z" finished-at="2017-12-08T09:53:22Z">
+>>>>>>> branch 'master' of https://github.com/raj7890/HRMDSP_Automation.git
       <class name="hrmsdp.testscripts.verifylaunchpage">
+<<<<<<< HEAD
         <test-method status="PASS" signature="startReport()[pri:0, instance:hrmsdp.testscripts.verifylaunchpage@91161c7]" name="startReport" is-config="true" duration-ms="286" started-at="2018-01-27T09:47:13Z" finished-at="2018-01-27T09:47:14Z">
+=======
+        <test-method status="PASS" signature="startReport()[pri:0, instance:hrmsdp.testscripts.verifylaunchpage@77caeb3e]" name="startReport" is-config="true" duration-ms="836" started-at="2017-12-08T15:22:46Z" finished-at="2017-12-08T15:22:47Z">
+>>>>>>> branch 'master' of https://github.com/raj7890/HRMDSP_Automation.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="launchpage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:hrmsdp.testscripts.verifylaunchpage@91161c7]" name="launchpage" duration-ms="8567" started-at="2018-01-27T09:47:14Z" finished-at="2018-01-27T09:47:22Z">
+=======
+        <test-method status="PASS" signature="verifylaunchpage(java.lang.String, java.lang.String)[pri:0, instance:hrmsdp.testscripts.verifylaunchpage@77caeb3e]" name="verifylaunchpage" duration-ms="34514" started-at="2017-12-08T15:22:47Z" finished-at="2017-12-08T15:23:22Z">
+>>>>>>> branch 'master' of https://github.com/raj7890/HRMDSP_Automation.git
           <params>
             <param index="0">
               <value>
@@ -20,6 +36,7 @@
             </param>
             <param index="1">
               <value>
+<<<<<<< HEAD
                 <![CDATA[test]]>
               </value>
             </param>
@@ -37,13 +54,31 @@
             <param index="0">
               <value>
                 <![CDATA[[TestResult name=launchpage status=SUCCESS method=verifylaunchpage.launchpage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:hrmsdp.testscripts.verifylaunchpage@91161c7] output={null}]]]>
+=======
+                <![CDATA[Dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylaunchpage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:hrmsdp.testscripts.verifylaunchpage@77caeb3e]" name="getResult" is-config="true" duration-ms="2" started-at="2017-12-08T15:23:22Z" finished-at="2017-12-08T15:23:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifylaunchpage status=SUCCESS method=verifylaunchpage.verifylaunchpage(java.lang.String, java.lang.String)[pri:0, instance:hrmsdp.testscripts.verifylaunchpage@77caeb3e] output={null}]]]>
+>>>>>>> branch 'master' of https://github.com/raj7890/HRMDSP_Automation.git
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="endReport()[pri:0, instance:hrmsdp.testscripts.verifylaunchpage@91161c7]" name="endReport" is-config="true" duration-ms="317" started-at="2018-01-27T09:47:22Z" finished-at="2018-01-27T09:47:23Z">
+=======
+        <test-method status="PASS" signature="endReport()[pri:0, instance:hrmsdp.testscripts.verifylaunchpage@77caeb3e]" name="endReport" is-config="true" duration-ms="382" started-at="2017-12-08T15:23:22Z" finished-at="2017-12-08T15:23:22Z">
+>>>>>>> branch 'master' of https://github.com/raj7890/HRMDSP_Automation.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->

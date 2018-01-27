@@ -7,8 +7,14 @@
     <parameter name="OS" value="windows"/>
     <classes>
       <class name="hrmsdp.testscripts.verifylaunchpage"/>
+<<<<<<< HEAD
     <!--   <class name="hrmsdp.testscripts.Verifylogin"/>
       <class name="hrmsdp.testscripts.verifyMasterPage"/>
  -->    </classes>
+=======
+    <!--  // <class name="hrmsdp.testscripts.Verifylogin"/>
+      //<class name="hrmsdp.testscripts.verifyMasterPage"/> -->
+    </classes>
+>>>>>>> branch 'master' of https://github.com/raj7890/HRMDSP_Automation.git
   </test> <!-- Test -->
 </suite> <!-- Suite -->
